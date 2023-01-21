@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Professional Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+</head><style>/* Global Styles */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  background-image: linear-gradient(to bottom, #7f7fd5, #86a8e7, #91eae4);
+  padding: 3em 0;
+  text-shadow: 1px 1px #ccc;
+}
+
+header h1 {
+  font-size: 3em;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+}
+
+header p {
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 1.5em;
+}
+
+header button {
+  background-color: #fff;
+  color: #333;
+  font-size: 1em;
+  padding: 0.5em 1.5em;
+  border: 2px solid #333;
+  border-radius: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+header button:hover {
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Navigation */
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0px 10px 20px #ccc;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 1em;
+}
+
+nav a {
+  color: #333;
+  font-size: 1.em;
+font-weight: 600;
+text-decoration: none;
+transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+color: #7f7fd5;
+}
+
+/* Section Styles */
+
+section {
+padding: 4em 0;
+}
+
+section h2 {
+font-size: 2em;
+font-weight: 600;
+margin-bottom: 1em;
+}
+
+section p {
+font-size: 1.2em;
+font-weight: 400;
+line-height: 1.5;
+margin-bottom: 2em;
+}
+
+section button {
+background-color: #7f7fd5;
+color: #fff;
+font-size: 1em;
+padding: 0.5em 1.5em;
+border: none;
+border-radius: 20px;
+transition: all 0.2s ease-in-out;
+}
+
+section button:hover {
+background-color: #86a8e7;
+cursor: pointer;
+}
+
+/* Portfolio Styles */
+
+#portfolio li {
+display: inline-block;
+margin: 0 1em;
+}
+
+#portfolio img {
+width: 300px;
+box-shadow: 1px 1px 5px #ccc;
+transition: all 0.2s ease-in-out;
+}
+
+#portfolio img:hover {
+transform: scale(1.1);
+}
+
+/* Testimonials Styles */
+
+#testimonials p {
+font-style: italic;
+margin-bottom: 0.5em;
+}
+
+#testimonials strong {
+font-size: 1.2em;
+display: block;
+}
+
+/* Contact Styles */
+
+#contact form {
+max-width: 600px;
+margin: 0 auto;
+text-align: left;
+}
+
+#contact label {
+font-size: 1.2em;
+font-weight: 600;
+display: block;
+margin-bottom: 0.5em;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact textarea {
+width: 100%;
+padding: 0.5em;
+margin-bottom: 1.5em;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+#contact input[type="submit"] {
+background-color: #7f7fd5;
+color: #fff;
+font-size: 1em;
+padding: 0.5em 1.5em;
+border: none;
+border-radius: 20px;
+transition: all 0.2s ease-in-out;
+}
+
+#contact input[type="submit"]:hover {
+background-color: #86a8e7;
+cursor: pointer;
+}
+
+/* Footer Styles */
+
+footer {
+background-color: #7f7fd5;
+color: #fff;
+padding: 2em 0;
+text-align: center;
+}
+
+
+
+</style>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <h1>Welcome to Nungari Inc</h1>
+    <p>We are a leading provider of top-quality Branding services and social Media Marketing solutions.</p>
+    <button>Learn More</button>
+  </header>
+
+  <section id="home">
+    <h2>About Us</h2>
+    <p>We are a team of experienced professionals committed to delivering the best possible results for our clients.</p>
+    <button>Meet Our Team</button>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Web Design and Development</li>
+<li>Search Engine Optimization</li>
+<li>Social Media Marketing</li>
+<li>Pay-Per-Click Advertising</li>
+<li>Email Marketing</li>
+<li>Content Marketing</li>
+</ul>
+<p>We offer a wide range of services to help businesses succeed online. From creating a stunning website to driving more traffic and conversions, we have the expertise and experience to help you achieve your goals.</p>
+<button>Learn More About Our Services</button>
+
+  </section>
+  <section id="portfolio">
+    <h2>Our Portfolio</h2>
+    <ul>
+      <li><img src="portfolio-item-1.jpg" alt="Portfolio Item 1"></li>
+      <li><img src="portfolio-item-2.jpg" alt="Portfolio Item 2"></li>
+      <li><img src="portfolio-item-3.jpg" alt="Portfolio Item 3"></li>
+    </ul>
+    <p>We have worked with a variety of clients across different industries, and we're proud of the results we've achieved for them. Take a look at our portfolio to see some of our best work.</p>
+    <button>View Our Portfolio</button>
+  </section>
+  <section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <ul>
+      <li>
+        <p>"We have been working with [Nungari Inc] for the past year and have been extremely happy with the results. They have helped us to increase our online visibility and drive more traffic and sales to our website."</p>
+        <p><strong>- John Smith, Depic Designs</strong></p>
+      </li>
+      <li>
+        <p>"I highly recommend [Nungari Inc] to anyone looking to improve their online presence. They are professional, responsive, and deliver great results."</p>
+        <p><strong>- Jane Doe, One Health Medical Centre</strong></p>
+      </li>
+    </ul>
+  </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+    <p>We would love to hear from you. Fill out the form above to get in touch with us, or give us a call at 07 99 790 876.</p>
+  </section>
+  <footer>
+    <p>Copyright ©2023 Nungari Inc</p>
+  </footer><script>// get all nav links
+var navLinks = document.querySelectorAll("nav a");
+
+// add event listener to each link
+navLinks.forEach(function(link) {
+  link.addEventListener("click", function() {
+    // remove active class from all links
+    navLinks.forEach(function(link) {
+      link.classList.remove("active");
+    });
+    // add active class to clicked link
+    this.classList.add("active");
+  });
+});
+
+// get current page from URL
+var currentPage = window.location.hash;
+
+// if current page is set
+if (currentPage) {
+  // remove active class from all links
+  navLinks.forEach(function(link) {
+    link.classList.remove("active");
+  });
+
+  // add active class to link that matches current page
+  var activeLink = document.querySelector("nav a[href='" + currentPage + "']");
+  activeLink.classList.add("active");
+}</script>
+<p>I'm hosted with GitHub Pages.</p>
+</body>
+</html>
+```
